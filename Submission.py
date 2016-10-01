@@ -51,5 +51,23 @@ class Submission:
             return '.py'
         if lang.find('C++') >= 0:
             return '.cpp'
-        if lang.find('C') >= 0:
-            return '.c'
+        if lang.find('AWK') >= 0:
+            return '.awk'
+        if lang.find('Bash') >= 0:
+            return '.sh'
+        if lang.find('C#') >= 0:
+            return '.cs'
+        if lang.find('Brain') >= 0:
+            return '.b'
+        if lang.find('JavaScript') >= 0:
+            return '.js'
+        if lang.find('Pascal') >= 0:
+            return '.pas'
+        if lang.find('Perl') >= 0:
+            return '.pl'
+        if lang.find('PHP') >= 0:
+            return '.php'
+        if lang.find('Ruby') >= 0:
+            return '.rb'
+        if lang.find('Text') >= 0:
+            return '.txt'
