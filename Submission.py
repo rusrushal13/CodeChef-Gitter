@@ -49,6 +49,8 @@ class Submission:
             return '.java'
         if lang.find('PYTH') >= 0:
             return '.py'
+	if lang.find('C') >= 0:
+            return '.c'
         if lang.find('C++') >= 0:
             return '.cpp'
         if lang.find('AWK') >= 0:
