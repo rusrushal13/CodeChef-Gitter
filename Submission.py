@@ -49,6 +49,8 @@ class Submission:
             return '.java'
         if lang.find('PYTH') >= 0:
             return '.py'
+	if lang.find('C#') >= 0:
+            return '.cs'
 	if lang.find('C') >= 0:
             return '.c'
         if lang.find('C++') >= 0:
@@ -57,8 +59,6 @@ class Submission:
             return '.awk'
         if lang.find('Bash') >= 0:
             return '.sh'
-        if lang.find('C#') >= 0:
-            return '.cs'
         if lang.find('Brain') >= 0:
             return '.b'
         if lang.find('JavaScript') >= 0:
